@@ -1,6 +1,12 @@
 {
- "name": "node-red-project",
- "description": "A Node-RED Project",
- "version": "0.0.1",
- "private": true
+    "name": "node-red-project",
+    "description": "A Node-RED Project",
+    "version": "0.0.1",
+    "private": true,
+    "node-red": {
+        "settings": {
+            "flowFile": "flows.json",
+            "credentialsFile": "flows_cred.json"
+        }
+    }
 }
