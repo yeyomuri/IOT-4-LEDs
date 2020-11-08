@@ -117,7 +117,6 @@ void reconnect() {
     }
   }
 }
-
 // La función de configuración establece la configuracion de los GPIOS como salida
 // Establece su broker mqtt y establece la función de devolución de llamada (callback)
 // La función de devolución de llamada (callback) es el que recibe mensajes y realmente controla los LED
@@ -132,7 +131,6 @@ void setup() {
   client.setServer(mqtt_server, 1883);
   client.setCallback(callback);
 }
-
 //Se asegura de que la esp8266-01 este conectada al broker
 void loop() {
 
